@@ -28,7 +28,7 @@ struct ContentView: View {
             TextField("Current savings", text: $currentSavings)
                 .textFieldStyle(.roundedBorder)
             Button {
-
+                Crashes.generateTestCrash()
             } label: {
                 Spacer()
                 Text(

@@ -24,7 +24,7 @@ struct RetirementCalculatorApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-          AppCenter.start(withAppSecret: "d89a8595-7280-4169-ab93-ffbd634344ed", services:[
+          AppCenter.start(withAppSecret: "98117ad6-a419-4ab2-94a7-e3821af9f9fe", services:[
             Crashes.self, Analytics.self])
         return true
     }

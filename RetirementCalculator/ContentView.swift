@@ -33,7 +33,10 @@ struct ContentView: View {
                 .textFieldStyle(.roundedBorder)
             Button {
                 //                Crashes.generateTestCrash()
-                Analytics.trackEvent("calculate_retirement_amount")
+                
+                let properties = ["current_age": currentAge,
+                                  "planned_retirement_age": retireAge]
+                Analytics.trackEvent("calculate_retirement_amount", withProperties: properties)
             } label: {
                 Spacer()
                 Text(
@@ -52,7 +55,7 @@ struct ContentView: View {
         }
         .onAppear {
             Analytics.trackEvent("navigater_to_calculator")
-
+            
             if Crashes.hasCrashedInLastSession {
                 showAlert = true // Set the alert to be shown if there was a crash
             }

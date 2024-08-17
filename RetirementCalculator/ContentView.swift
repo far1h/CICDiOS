@@ -14,6 +14,9 @@ struct ContentView: View {
     @State private var retireAge = ""
     @State private var interestRate = ""
     @State private var currentSavings = ""
+    @State private var showAlert = false // Added state to manage alert presentation
+
+    
     var body: some View {
         VStack (alignment: .leading) {
             TextField("Monthly Investments", text: $monthlyInvestments)                .textFieldStyle(.roundedBorder)
@@ -40,6 +43,16 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
+        .alert(isPresented: $showAlert) { // Used the new state to trigger the alert
+                    Alert(title: Text("Oops"),
+                          message: Text("Sorry about that, an error occurred."),
+                          dismissButton: .default(Text("It's cool")))
+                }
+                .onAppear {
+                    if Crashes.hasCrashedInLastSession {
+                        showAlert = true // Set the alert to be shown if there was a crash
+                    }
+                }
     }
 }
 

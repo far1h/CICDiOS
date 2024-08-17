@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var retireAge = ""
     @State private var interestRate = ""
     @State private var currentSavings = ""
+    @State private var result = "Enter some values to calculate your retirement amount"
     @State private var showAlert = false // Added state to manage alert presentation
     
     
@@ -33,6 +34,7 @@ struct ContentView: View {
                 .textFieldStyle(.roundedBorder)
             Button {
                 //                Crashes.generateTestCrash()
+                result = "If you save $\(Double(monthlyInvestments)!) every month for \(Int(retireAge)! - Int(currentAge)!) years, and invest that money plus your current investment of $\(Double(currentSavings)!) at a \(Double(interestRate)!)% anual interest rate, you will have $X by the time you are \(Int(retireAge)!)"
                 
                 let properties = ["current_age": currentAge,
                                   "planned_retirement_age": retireAge]
@@ -44,7 +46,7 @@ struct ContentView: View {
                 )
                 Spacer()
             }.buttonStyle(.borderedProminent)
-            Text("Enter some values to calculate your retirement amount")
+            Text(result)
             Spacer()
         }
         .padding()

@@ -16,6 +16,53 @@
 		9166BFEE2C70829500B7F1BC /* RetirementCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166BFED2C70829500B7F1BC /* RetirementCalculatorUITestsLaunchTests.swift */; };
 		9166C0012C7087EF00B7F1BC /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C0002C7087EF00B7F1BC /* AppCenterAnalytics */; };
 		9166C0032C7087EF00B7F1BC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C0022C7087EF00B7F1BC /* AppCenterCrashes */; };
+		9166C06E2C7394A200B7F1BC /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C06D2C7394A200B7F1BC /* AppCenterAnalytics */; };
+		9166C0702C7394A200B7F1BC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C06F2C7394A200B7F1BC /* AppCenterCrashes */; };
+		9166C0722C73952D00B7F1BC /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C0712C73952D00B7F1BC /* AppCenterAnalytics */; };
+		9166C0742C73952D00B7F1BC /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 9166C0732C73952D00B7F1BC /* AppCenterCrashes */; };
+		9166C09F2C73971E00B7F1BC /* libswiftAccelerate.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0902C7396CB00B7F1BC /* libswiftAccelerate.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A02C73971E00B7F1BC /* libswiftARKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07C2C7396CB00B7F1BC /* libswiftARKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A12C73971E00B7F1BC /* libswiftAssetsLibrary.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0772C7396CB00B7F1BC /* libswiftAssetsLibrary.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A22C73971E00B7F1BC /* libswiftAVFoundation.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C09A2C7396CC00B7F1BC /* libswiftAVFoundation.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A32C73971E00B7F1BC /* libswiftCallKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0792C7396CB00B7F1BC /* libswiftCallKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A42C73971E00B7F1BC /* libswiftCloudKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0992C7396CC00B7F1BC /* libswiftCloudKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A52C73971E00B7F1BC /* libswiftContacts.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0922C7396CB00B7F1BC /* libswiftContacts.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A62C73971E00B7F1BC /* libswiftCore.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0872C7396CB00B7F1BC /* libswiftCore.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A72C73971F00B7F1BC /* libswiftCoreAudio.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07D2C7396CB00B7F1BC /* libswiftCoreAudio.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A82C73971F00B7F1BC /* libswiftCoreData.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0932C7396CC00B7F1BC /* libswiftCoreData.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0A92C73971F00B7F1BC /* libswiftCoreFoundation.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C09B2C7396CC00B7F1BC /* libswiftCoreFoundation.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AA2C73971F00B7F1BC /* libswiftCoreGraphics.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0862C7396CB00B7F1BC /* libswiftCoreGraphics.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AB2C73971F00B7F1BC /* libswiftCoreImage.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08C2C7396CB00B7F1BC /* libswiftCoreImage.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AC2C73971F00B7F1BC /* libswiftCoreLocation.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07F2C7396CB00B7F1BC /* libswiftCoreLocation.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AD2C73971F00B7F1BC /* libswiftCoreMedia.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07A2C7396CB00B7F1BC /* libswiftCoreMedia.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AE2C73971F00B7F1BC /* libswiftDarwin.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0842C7396CB00B7F1BC /* libswiftDarwin.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0AF2C73971F00B7F1BC /* libswiftDispatch.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0912C7396CB00B7F1BC /* libswiftDispatch.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B02C73971F00B7F1BC /* libswiftFoundation.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0962C7396CC00B7F1BC /* libswiftFoundation.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B12C73971F00B7F1BC /* libswiftGameplayKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08B2C7396CB00B7F1BC /* libswiftGameplayKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B22C73971F00B7F1BC /* libswiftGLKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0852C7396CB00B7F1BC /* libswiftGLKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B32C73971F00B7F1BC /* libswiftHomeKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07E2C7396CB00B7F1BC /* libswiftHomeKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B42C73971F00B7F1BC /* libswiftIntents.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0982C7396CC00B7F1BC /* libswiftIntents.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B52C73971F00B7F1BC /* libswiftMapKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0752C7396CB00B7F1BC /* libswiftMapKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B62C73971F00B7F1BC /* libswiftMediaPlayer.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08F2C7396CB00B7F1BC /* libswiftMediaPlayer.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B72C73971F00B7F1BC /* libswiftMetal.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C07B2C7396CB00B7F1BC /* libswiftMetal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B82C73971F00B7F1BC /* libswiftMetalKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0892C7396CB00B7F1BC /* libswiftMetalKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0B92C73971F00B7F1BC /* libswiftModelIO.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0942C7396CC00B7F1BC /* libswiftModelIO.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BA2C73971F00B7F1BC /* libswiftNaturalLanguage.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0802C7396CB00B7F1BC /* libswiftNaturalLanguage.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BB2C73971F00B7F1BC /* libswiftNetwork.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C09D2C7396CC00B7F1BC /* libswiftNetwork.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BC2C73971F00B7F1BC /* libswiftObjectiveC.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0882C7396CB00B7F1BC /* libswiftObjectiveC.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BD2C73971F00B7F1BC /* libswiftos.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0822C7396CB00B7F1BC /* libswiftos.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BE2C73971F00B7F1BC /* libswiftPhotos.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0952C7396CC00B7F1BC /* libswiftPhotos.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0BF2C73971F00B7F1BC /* libswiftQuartzCore.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0972C7396CC00B7F1BC /* libswiftQuartzCore.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C02C73971F00B7F1BC /* libswiftSceneKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08D2C7396CB00B7F1BC /* libswiftSceneKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C12C73971F00B7F1BC /* libswiftsimd.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0812C7396CB00B7F1BC /* libswiftsimd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C22C73971F00B7F1BC /* libswiftSpriteKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0832C7396CB00B7F1BC /* libswiftSpriteKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C32C73971F00B7F1BC /* libswiftSwiftOnoneSupport.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08E2C7396CB00B7F1BC /* libswiftSwiftOnoneSupport.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C42C73971F00B7F1BC /* libswiftUIKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0762C7396CB00B7F1BC /* libswiftUIKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C52C73971F00B7F1BC /* libswiftVision.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C08A2C7396CB00B7F1BC /* libswiftVision.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C62C73971F00B7F1BC /* libswiftWatchKit.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C09C2C7396CC00B7F1BC /* libswiftWatchKit.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C72C73971F00B7F1BC /* libswiftXCTest.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0782C7396CB00B7F1BC /* libswiftXCTest.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0C92C73973800B7F1BC /* libXCTestSwiftSupport.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0C82C73973200B7F1BC /* libXCTestSwiftSupport.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9166C0CC2C73976400B7F1BC /* XCTest.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 9166C0CA2C73976000B7F1BC /* XCTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +82,62 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9166C09E2C7396EB00B7F1BC /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9166C0CC2C73976400B7F1BC /* XCTest.framework in Copy Files */,
+				9166C0C92C73973800B7F1BC /* libXCTestSwiftSupport.dylib in Copy Files */,
+				9166C09F2C73971E00B7F1BC /* libswiftAccelerate.dylib in Copy Files */,
+				9166C0A02C73971E00B7F1BC /* libswiftARKit.dylib in Copy Files */,
+				9166C0A12C73971E00B7F1BC /* libswiftAssetsLibrary.dylib in Copy Files */,
+				9166C0A22C73971E00B7F1BC /* libswiftAVFoundation.dylib in Copy Files */,
+				9166C0A32C73971E00B7F1BC /* libswiftCallKit.dylib in Copy Files */,
+				9166C0A42C73971E00B7F1BC /* libswiftCloudKit.dylib in Copy Files */,
+				9166C0A52C73971E00B7F1BC /* libswiftContacts.dylib in Copy Files */,
+				9166C0A62C73971E00B7F1BC /* libswiftCore.dylib in Copy Files */,
+				9166C0A72C73971F00B7F1BC /* libswiftCoreAudio.dylib in Copy Files */,
+				9166C0A82C73971F00B7F1BC /* libswiftCoreData.dylib in Copy Files */,
+				9166C0A92C73971F00B7F1BC /* libswiftCoreFoundation.dylib in Copy Files */,
+				9166C0AA2C73971F00B7F1BC /* libswiftCoreGraphics.dylib in Copy Files */,
+				9166C0AB2C73971F00B7F1BC /* libswiftCoreImage.dylib in Copy Files */,
+				9166C0AC2C73971F00B7F1BC /* libswiftCoreLocation.dylib in Copy Files */,
+				9166C0AD2C73971F00B7F1BC /* libswiftCoreMedia.dylib in Copy Files */,
+				9166C0AE2C73971F00B7F1BC /* libswiftDarwin.dylib in Copy Files */,
+				9166C0AF2C73971F00B7F1BC /* libswiftDispatch.dylib in Copy Files */,
+				9166C0B02C73971F00B7F1BC /* libswiftFoundation.dylib in Copy Files */,
+				9166C0B12C73971F00B7F1BC /* libswiftGameplayKit.dylib in Copy Files */,
+				9166C0B22C73971F00B7F1BC /* libswiftGLKit.dylib in Copy Files */,
+				9166C0B32C73971F00B7F1BC /* libswiftHomeKit.dylib in Copy Files */,
+				9166C0B42C73971F00B7F1BC /* libswiftIntents.dylib in Copy Files */,
+				9166C0B52C73971F00B7F1BC /* libswiftMapKit.dylib in Copy Files */,
+				9166C0B62C73971F00B7F1BC /* libswiftMediaPlayer.dylib in Copy Files */,
+				9166C0B72C73971F00B7F1BC /* libswiftMetal.dylib in Copy Files */,
+				9166C0B82C73971F00B7F1BC /* libswiftMetalKit.dylib in Copy Files */,
+				9166C0B92C73971F00B7F1BC /* libswiftModelIO.dylib in Copy Files */,
+				9166C0BA2C73971F00B7F1BC /* libswiftNaturalLanguage.dylib in Copy Files */,
+				9166C0BB2C73971F00B7F1BC /* libswiftNetwork.dylib in Copy Files */,
+				9166C0BC2C73971F00B7F1BC /* libswiftObjectiveC.dylib in Copy Files */,
+				9166C0BD2C73971F00B7F1BC /* libswiftos.dylib in Copy Files */,
+				9166C0BE2C73971F00B7F1BC /* libswiftPhotos.dylib in Copy Files */,
+				9166C0BF2C73971F00B7F1BC /* libswiftQuartzCore.dylib in Copy Files */,
+				9166C0C02C73971F00B7F1BC /* libswiftSceneKit.dylib in Copy Files */,
+				9166C0C12C73971F00B7F1BC /* libswiftsimd.dylib in Copy Files */,
+				9166C0C22C73971F00B7F1BC /* libswiftSpriteKit.dylib in Copy Files */,
+				9166C0C32C73971F00B7F1BC /* libswiftSwiftOnoneSupport.dylib in Copy Files */,
+				9166C0C42C73971F00B7F1BC /* libswiftUIKit.dylib in Copy Files */,
+				9166C0C52C73971F00B7F1BC /* libswiftVision.dylib in Copy Files */,
+				9166C0C62C73971F00B7F1BC /* libswiftWatchKit.dylib in Copy Files */,
+				9166C0C72C73971F00B7F1BC /* libswiftXCTest.dylib in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9166BFCD2C70829400B7F1BC /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9166BFD02C70829400B7F1BC /* RetirementCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorApp.swift; sourceTree = "<group>"; };
@@ -46,6 +149,49 @@
 		9166BFE72C70829500B7F1BC /* RetirementCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9166BFEB2C70829500B7F1BC /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
 		9166BFED2C70829500B7F1BC /* RetirementCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9166C0752C7396CB00B7F1BC /* libswiftMapKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftMapKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftMapKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0762C7396CB00B7F1BC /* libswiftUIKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftUIKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftUIKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0772C7396CB00B7F1BC /* libswiftAssetsLibrary.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftAssetsLibrary.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftAssetsLibrary.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0782C7396CB00B7F1BC /* libswiftXCTest.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftXCTest.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftXCTest.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0792C7396CB00B7F1BC /* libswiftCallKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCallKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCallKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07A2C7396CB00B7F1BC /* libswiftCoreMedia.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreMedia.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreMedia.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07B2C7396CB00B7F1BC /* libswiftMetal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftMetal.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftMetal.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07C2C7396CB00B7F1BC /* libswiftARKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftARKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftARKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07D2C7396CB00B7F1BC /* libswiftCoreAudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreAudio.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreAudio.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07E2C7396CB00B7F1BC /* libswiftHomeKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftHomeKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftHomeKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C07F2C7396CB00B7F1BC /* libswiftCoreLocation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreLocation.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreLocation.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0802C7396CB00B7F1BC /* libswiftNaturalLanguage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftNaturalLanguage.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftNaturalLanguage.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0812C7396CB00B7F1BC /* libswiftsimd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftsimd.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftsimd.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0822C7396CB00B7F1BC /* libswiftos.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftos.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftos.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0832C7396CB00B7F1BC /* libswiftSpriteKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftSpriteKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftSpriteKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0842C7396CB00B7F1BC /* libswiftDarwin.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftDarwin.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftDarwin.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0852C7396CB00B7F1BC /* libswiftGLKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftGLKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftGLKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0862C7396CB00B7F1BC /* libswiftCoreGraphics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreGraphics.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreGraphics.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0872C7396CB00B7F1BC /* libswiftCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCore.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCore.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0882C7396CB00B7F1BC /* libswiftObjectiveC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftObjectiveC.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftObjectiveC.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0892C7396CB00B7F1BC /* libswiftMetalKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftMetalKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftMetalKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08A2C7396CB00B7F1BC /* libswiftVision.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftVision.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftVision.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08B2C7396CB00B7F1BC /* libswiftGameplayKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftGameplayKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftGameplayKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08C2C7396CB00B7F1BC /* libswiftCoreImage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreImage.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreImage.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08D2C7396CB00B7F1BC /* libswiftSceneKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftSceneKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftSceneKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08E2C7396CB00B7F1BC /* libswiftSwiftOnoneSupport.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftSwiftOnoneSupport.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftSwiftOnoneSupport.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C08F2C7396CB00B7F1BC /* libswiftMediaPlayer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftMediaPlayer.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftMediaPlayer.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0902C7396CB00B7F1BC /* libswiftAccelerate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftAccelerate.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftAccelerate.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0912C7396CB00B7F1BC /* libswiftDispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftDispatch.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftDispatch.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0922C7396CB00B7F1BC /* libswiftContacts.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftContacts.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftContacts.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0932C7396CC00B7F1BC /* libswiftCoreData.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreData.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreData.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0942C7396CC00B7F1BC /* libswiftModelIO.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftModelIO.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftModelIO.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0952C7396CC00B7F1BC /* libswiftPhotos.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftPhotos.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftPhotos.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0962C7396CC00B7F1BC /* libswiftFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftFoundation.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftFoundation.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0972C7396CC00B7F1BC /* libswiftQuartzCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftQuartzCore.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftQuartzCore.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0982C7396CC00B7F1BC /* libswiftIntents.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftIntents.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftIntents.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0992C7396CC00B7F1BC /* libswiftCloudKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCloudKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCloudKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C09A2C7396CC00B7F1BC /* libswiftAVFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftAVFoundation.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftAVFoundation.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C09B2C7396CC00B7F1BC /* libswiftCoreFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCoreFoundation.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreFoundation.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C09C2C7396CC00B7F1BC /* libswiftWatchKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftWatchKit.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftWatchKit.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C09D2C7396CC00B7F1BC /* libswiftNetwork.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftNetwork.dylib; path = "Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftNetwork.dylib"; sourceTree = DEVELOPER_DIR; };
+		9166C0C82C73973200B7F1BC /* libXCTestSwiftSupport.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXCTestSwiftSupport.dylib; path = Platforms/iPhoneOS.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib; sourceTree = DEVELOPER_DIR; };
+		9166C0CA2C73976000B7F1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +208,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9166C0722C73952D00B7F1BC /* AppCenterAnalytics in Frameworks */,
+				9166C0742C73952D00B7F1BC /* AppCenterCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +217,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9166C06E2C7394A200B7F1BC /* AppCenterAnalytics in Frameworks */,
+				9166C0702C7394A200B7F1BC /* AppCenterCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +232,7 @@
 				9166BFE02C70829500B7F1BC /* RetirementCalculatorTests */,
 				9166BFEA2C70829500B7F1BC /* RetirementCalculatorUITests */,
 				9166BFCE2C70829400B7F1BC /* Products */,
+				9166C06C2C7394A200B7F1BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +282,56 @@
 			path = RetirementCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		9166C06C2C7394A200B7F1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9166C0CA2C73976000B7F1BC /* XCTest.framework */,
+				9166C0C82C73973200B7F1BC /* libXCTestSwiftSupport.dylib */,
+				9166C0902C7396CB00B7F1BC /* libswiftAccelerate.dylib */,
+				9166C07C2C7396CB00B7F1BC /* libswiftARKit.dylib */,
+				9166C0772C7396CB00B7F1BC /* libswiftAssetsLibrary.dylib */,
+				9166C09A2C7396CC00B7F1BC /* libswiftAVFoundation.dylib */,
+				9166C0792C7396CB00B7F1BC /* libswiftCallKit.dylib */,
+				9166C0992C7396CC00B7F1BC /* libswiftCloudKit.dylib */,
+				9166C0922C7396CB00B7F1BC /* libswiftContacts.dylib */,
+				9166C0872C7396CB00B7F1BC /* libswiftCore.dylib */,
+				9166C07D2C7396CB00B7F1BC /* libswiftCoreAudio.dylib */,
+				9166C0932C7396CC00B7F1BC /* libswiftCoreData.dylib */,
+				9166C09B2C7396CC00B7F1BC /* libswiftCoreFoundation.dylib */,
+				9166C0862C7396CB00B7F1BC /* libswiftCoreGraphics.dylib */,
+				9166C08C2C7396CB00B7F1BC /* libswiftCoreImage.dylib */,
+				9166C07F2C7396CB00B7F1BC /* libswiftCoreLocation.dylib */,
+				9166C07A2C7396CB00B7F1BC /* libswiftCoreMedia.dylib */,
+				9166C0842C7396CB00B7F1BC /* libswiftDarwin.dylib */,
+				9166C0912C7396CB00B7F1BC /* libswiftDispatch.dylib */,
+				9166C0962C7396CC00B7F1BC /* libswiftFoundation.dylib */,
+				9166C08B2C7396CB00B7F1BC /* libswiftGameplayKit.dylib */,
+				9166C0852C7396CB00B7F1BC /* libswiftGLKit.dylib */,
+				9166C07E2C7396CB00B7F1BC /* libswiftHomeKit.dylib */,
+				9166C0982C7396CC00B7F1BC /* libswiftIntents.dylib */,
+				9166C0752C7396CB00B7F1BC /* libswiftMapKit.dylib */,
+				9166C08F2C7396CB00B7F1BC /* libswiftMediaPlayer.dylib */,
+				9166C07B2C7396CB00B7F1BC /* libswiftMetal.dylib */,
+				9166C0892C7396CB00B7F1BC /* libswiftMetalKit.dylib */,
+				9166C0942C7396CC00B7F1BC /* libswiftModelIO.dylib */,
+				9166C0802C7396CB00B7F1BC /* libswiftNaturalLanguage.dylib */,
+				9166C09D2C7396CC00B7F1BC /* libswiftNetwork.dylib */,
+				9166C0882C7396CB00B7F1BC /* libswiftObjectiveC.dylib */,
+				9166C0822C7396CB00B7F1BC /* libswiftos.dylib */,
+				9166C0952C7396CC00B7F1BC /* libswiftPhotos.dylib */,
+				9166C0972C7396CC00B7F1BC /* libswiftQuartzCore.dylib */,
+				9166C08D2C7396CB00B7F1BC /* libswiftSceneKit.dylib */,
+				9166C0812C7396CB00B7F1BC /* libswiftsimd.dylib */,
+				9166C0832C7396CB00B7F1BC /* libswiftSpriteKit.dylib */,
+				9166C08E2C7396CB00B7F1BC /* libswiftSwiftOnoneSupport.dylib */,
+				9166C0762C7396CB00B7F1BC /* libswiftUIKit.dylib */,
+				9166C08A2C7396CB00B7F1BC /* libswiftVision.dylib */,
+				9166C09C2C7396CC00B7F1BC /* libswiftWatchKit.dylib */,
+				9166C0782C7396CB00B7F1BC /* libswiftXCTest.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +370,10 @@
 				9166BFDF2C70829500B7F1BC /* PBXTargetDependency */,
 			);
 			name = RetirementCalculatorTests;
+			packageProductDependencies = (
+				9166C0712C73952D00B7F1BC /* AppCenterAnalytics */,
+				9166C0732C73952D00B7F1BC /* AppCenterCrashes */,
+			);
 			productName = RetirementCalculatorTests;
 			productReference = 9166BFDD2C70829500B7F1BC /* RetirementCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -180,6 +385,7 @@
 				9166BFE32C70829500B7F1BC /* Sources */,
 				9166BFE42C70829500B7F1BC /* Frameworks */,
 				9166BFE52C70829500B7F1BC /* Resources */,
+				9166C09E2C7396EB00B7F1BC /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -187,6 +393,10 @@
 				9166BFE92C70829500B7F1BC /* PBXTargetDependency */,
 			);
 			name = RetirementCalculatorUITests;
+			packageProductDependencies = (
+				9166C06D2C7394A200B7F1BC /* AppCenterAnalytics */,
+				9166C06F2C7394A200B7F1BC /* AppCenterCrashes */,
+			);
 			productName = RetirementCalculatorUITests;
 			productReference = 9166BFE72C70829500B7F1BC /* RetirementCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -356,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -526,6 +736,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5Y2G7UJ92;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.farihmhmd.RetirementCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +755,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5Y2G7UJ92;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.farihmhmd.RetirementCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -613,6 +825,26 @@
 			productName = AppCenterAnalytics;
 		};
 		9166C0022C7087EF00B7F1BC /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9166BFFF2C7087EF00B7F1BC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
+		9166C06D2C7394A200B7F1BC /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9166BFFF2C7087EF00B7F1BC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		9166C06F2C7394A200B7F1BC /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9166BFFF2C7087EF00B7F1BC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
+		9166C0712C73952D00B7F1BC /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9166BFFF2C7087EF00B7F1BC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		9166C0732C73952D00B7F1BC /* AppCenterCrashes */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9166BFFF2C7087EF00B7F1BC /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterCrashes;

@@ -37,16 +37,22 @@ struct ContentView: View {
     var body: some View {
         VStack (alignment: .leading) {
             TextField("Monthly Investments", text: $monthlyInvestments)                .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
             
             TextField("Your current age", text: $currentAge)                .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
             
             TextField("Your planned retirement age", text: $retireAge)                .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
             
             TextField("Average interest rate of investments", text: $interestRate)
                 .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
             
             TextField("Current savings", text: $currentSavings)
                 .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
+
             Button {
                 //                Crashes.generateTestCrash()
                 
@@ -63,7 +69,7 @@ struct ContentView: View {
                 )
                 Spacer()
             }.buttonStyle(.borderedProminent)
-            Text(result)
+            Text(result).accessibility(identifier: "resultLabel")
             Spacer()
         }
         .padding()
